@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="">
+    <div className="m-4">
       <div className="tabs tabs-border">
         <input
           type="radio"
@@ -8,7 +8,7 @@ export default function Home() {
           className="tab"
           aria-label="India And Pakistan Conflict"
         />
-        <div className="tab-content border-base-300 bg-base-100 p-10">
+        <div className="tab-content border-base-300 bg-base-100 rounded-xl p-10">
           Tab content 1
         </div>
 
@@ -19,7 +19,7 @@ export default function Home() {
           aria-label="Ukraine And Russia Conflict"
           defaultChecked
         />
-        <div className="tab-content border-base-300 bg-base-100 p-10">
+        <div className="tab-content border-base-300 bg-base-100 rounded-xl p-10">
           Tab content 2
         </div>
       </div>
