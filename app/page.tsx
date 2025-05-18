@@ -1,3 +1,5 @@
+import TweetFeed from "@/components/tweetFeed";
+
 export default function Home() {
   return (
     <div className="m-4">
@@ -9,7 +11,7 @@ export default function Home() {
           aria-label="India and Pakistan Conflict"
         />
         <div className="tab-content border-base-300 bg-base-100 rounded-xl p-10">
-          Tab content 1
+          <TweetFeed />
         </div>
 
         <input
