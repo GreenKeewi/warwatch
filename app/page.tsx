@@ -6,7 +6,7 @@ export default function Home() {
           type="radio"
           name="my_tabs_2"
           className="tab"
-          aria-label="India And Pakistan Conflict"
+          aria-label="India and Pakistan Conflict"
         />
         <div className="tab-content border-base-300 bg-base-100 rounded-xl p-10">
           Tab content 1
@@ -16,7 +16,7 @@ export default function Home() {
           type="radio"
           name="my_tabs_2"
           className="tab"
-          aria-label="Ukraine And Russia Conflict"
+          aria-label="Ukraine and Russia Conflict"
           defaultChecked
         />
         <div className="tab-content border-base-300 bg-base-100 rounded-xl p-10">

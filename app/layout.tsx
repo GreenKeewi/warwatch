@@ -34,7 +34,7 @@ export default function RootLayout({
               <p className="btn btn-ghost text-xl">WarWatch</p>
             </Link>
           </div>
-          <div className="flex-none">
+          <div className="flex-none scale-90">
             <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}
               <input
